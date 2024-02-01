@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/icons8-rose-16.png">
+    <link rel="icon" type="image/x-icon" href="/images/bow.png">
     <title>My Reading List</title>
     <style>
+      #logo {
+          height: 50px; /* Set your desired height */
+          width: auto; /* Auto-adjust width to maintain aspect ratio */
+      }
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
@@ -14,16 +18,21 @@
             margin: 0 auto;
             padding: 20px;
             background-color: white;
+            padding-top: 40px;
         }
         h1 {
             color: #D63484;
           font-family: "Lucida Console", Courier, monospace;
         }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+          border: 2px solid black;
+          
+      }
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -39,7 +48,7 @@
 </head>
 <body>
 
-<h1> My-Reading-List </h1>
+<img id="logo" src="images/mrlogo.png" alt="My-Reading-List" />
 
 <p class="bodytext">𓇼 A list of blogs I read, got inspired from and I plan to read in 2024. 𓇼</p>
 
@@ -77,11 +86,23 @@
             <td>Wenbin Fang</td>
             <td>🎀</td>
         </tr>
-         <tr>
-            <td><a href="https://netflixtechblog.com/rebuilding-netflix-video-processing-pipeline-with-microservices-4e5e6310e359">Rebuilding Netflix Video Processing Pipeline with Microservices</a></td>
+        <tr>
+          <td><a href="https://netflixtechblog.com/rebuilding-netflix-video-processing-pipeline-with-microservices-4e5e6310e359">
+              Rebuilding Netflix Video Processing Pipeline with Microservices</a></td>
             <td>netflixtechblog</td>
             <td>🧸ྀི</td>
+            </tr>
+         <tr>
+            <td><a href="https://consensys.io/blog/what-is-web3-here-are-some-ways-to-explain-it-to-a-friend">Explain Web3 to a friend</a></td>
+            <td>James Beck</td>
+            <td>🎀</td>
+<!--         </tr>
+            <tr>
+            <td><a href="add link here">add name here</a></td>
+            <td>add auther here</td>
+            <td>🧸ྀི</td>
         </tr>
+         -->
     </tbody>
 </table>
 
